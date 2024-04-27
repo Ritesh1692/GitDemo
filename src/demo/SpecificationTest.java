@@ -51,7 +51,31 @@ public class SpecificationTest {
 		Response whenResp=respgiven.when().post("/maps/api/place/add/json")
 		.then().spec(respSpec).extract().response();
 		
-		System.out.println(whenResp.asString()); 
-	}
+		System.out.println(whenResp.asString());
+		
+		
+		
+		/*
+		 * List<String> type=new ArrayList<String>(); type.add("shoe park");
+		 * type.add("shop"); ad.setTypes(type);
+		 * 
+		 * ad.setWebsite("http://google.com"); ad.setLanguage("French-IN");
+		 * 
+		 * RequestSpecification reqspec=new RequestSpecBuilder().
+		 * setBaseUri("https://rahulshettyacademy.com").addQueryParam("key",
+		 * "qaclick123") .setContentType(ContentType.JSON).build();
+		 * 
+		 * ResponseSpecification respSpec=new
+		 * ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.
+		 * JSON).build();
+		 * 
+		 * 
+		 * RequestSpecification respgiven=given().spec(reqspec).body(ad);
+		 * 
+		 * Response whenResp=respgiven.when().post("/maps/api/place/add/json")
+		 * .then().spec(respSpec).extract().response();
+		 * 
+		 * System.out.println(whenResp.asString());
+		 */	}
 
 }

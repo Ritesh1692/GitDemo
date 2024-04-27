@@ -25,6 +25,18 @@ public class SerializationTest {
 		ad.setPhone_number("(+91) 983 893 3937");
 		ad.setAddress("29, side layout, cohen 09");
 		
+		
+		/*AddLocation ad=new AddLocation();
+		Location location=new Location();
+		location.setLat(-88.383494);
+		location.setLng(33.427362);
+		ad.setLocation(location);
+		
+		ad.setAccuracy(54);
+		ad.setName("Frontline house");
+		ad.setPhone_number("(+91) 983 893 3937");
+		ad.setAddress("29, side layout, cohen 09");*/
+		
 		List<String> type=new ArrayList<String>();
 		type.add("shoe park");
 		type.add("shop");
