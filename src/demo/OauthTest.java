@@ -21,6 +21,7 @@ public class OauthTest {
 	public static void main(String[] args) 
 	{
 		
+		System.out.println("Test changes by user 1");
 		// TODO Auto-generated method stub
 		
 		/*
